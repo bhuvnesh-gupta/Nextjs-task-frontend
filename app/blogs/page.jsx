@@ -3,6 +3,7 @@
 import Comments from "@/components/Comments";
 import TagsSection from "@/components/TagsSection";
 import Image from "next/image";
+import { BsPencilSquare } from "react-icons/bs";
 import React, { useState } from "react";
 
 const FILTER_LIST = [
@@ -43,13 +44,7 @@ const BlogsPage = () => {
                 <button
                   className=" flex justify-between bg-blue-700 border-blue-700 font-semibold py-2 px-4 rounded-2xl text-white hover:bg-blue-500 hover:text-white transition duration-300"
                   width={81}>
-                  <Image
-                    src={"/svg/Pen.svg"}
-                    alt={"logo"}
-                    width={15}
-                    height={15}
-                    className="mt-1 mr-2"
-                  />
+<BsPencilSquare className="mt-1 mr-1"/>
                   Write
                 </button>
               </div>
