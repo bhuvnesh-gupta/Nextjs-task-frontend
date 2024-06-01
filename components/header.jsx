@@ -38,7 +38,7 @@ const Header = () => {
             <div className="relative">
               <button className=" rounded-full p-2">
                 <Image
-                  src={"/svg/call chat.svg"}
+                  src={"/svg/Call Chat.svg"}
                   alt={"logo"}
                   width={32}
                   height={32}
