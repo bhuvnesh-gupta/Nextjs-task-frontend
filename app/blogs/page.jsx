@@ -44,7 +44,7 @@ const BlogsPage = () => {
                   className=" flex justify-between bg-blue-700 border-blue-700 font-semibold py-2 px-4 rounded-2xl text-white hover:bg-blue-500 hover:text-white transition duration-300"
                   width={81}>
                   <Image
-                    src={"/svg/pen.svg"}
+                    src={"/svg/Pen.svg"}
                     alt={"logo"}
                     width={15}
                     height={15}
